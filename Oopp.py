@@ -8,12 +8,17 @@
 #         self.gender = "male"
 #
 # oopp = Person()
-# oopp.name = "Spencer"
+# oopp.name = "Spencer" renaming
+
+
 # print(oopp.name)
 # print(oopp.age)
 # print(oopp.gender)
 # print(oopp.location)
 
+
+print(person1.name)
+print( f"my name is {person1.name} and im {person1.age} years and im a {person1.gender}" )
 class People:
     def __init__(self, name, age, gender):
         self.name = name
@@ -24,5 +29,3 @@ class People:
 person1 = People("jay",19,"male")
 person2 = People("spence",21,"male")
 
-print(person1.name)
-print( f"my name is {person1.name} and im {person1.age} years and im a {person1.gender}" )
